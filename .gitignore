@@ -53,3 +53,11 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Keil complie files
+*.axf
+*.htm
+*.crf
+
+# path recording file
+PATH.txt

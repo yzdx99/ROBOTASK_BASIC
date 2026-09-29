@@ -5,3 +5,15 @@ The project files for basic mission of Robomini screen
 
 利用STM32F103C8T6点亮LED
 Robomini初筛的初级任务文件
+
+
+硬件介绍：
+    使用STM32F103C8T6、STlink、LED
+
+软件介绍：
+    1.该工程使用CubeMX生成初始化代码。
+    2.使用端口为PA2，点亮一个外部LED。
+    3.通过delay控制其 点亮1s,熄灭0.5s 的闪烁
+
+
+YZDX
