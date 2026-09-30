@@ -98,9 +98,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
       
-    HAL_GPIO_WritePin(LED_OUT_GPIO_Port, LED_OUT_Pin, GPIO_PIN_SET);  /*LED0 PB5  1*/ 
+    HAL_GPIO_WritePin(LED_OUT_GPIO_Port, LED_OUT_Pin, GPIO_PIN_SET);  /*LED0 PA2  1*/ 
     HAL_Delay(1000);
-    HAL_GPIO_WritePin(LED_OUT_GPIO_Port, LED_OUT_Pin, GPIO_PIN_RESET);/*LED0 PB5  0*/
+    HAL_GPIO_WritePin(LED_OUT_GPIO_Port, LED_OUT_Pin, GPIO_PIN_RESET);/*LED0 PA2  0*/
     HAL_Delay(500);
   }
   /* USER CODE END 3 */
