@@ -61,3 +61,6 @@ dkms.conf
 
 # path recording file
 PATH.txt
+
+# keilkill.bat
+keilkill.bat
